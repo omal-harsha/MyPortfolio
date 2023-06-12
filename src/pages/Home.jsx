@@ -17,7 +17,7 @@ export const Home = () => {
           <div className='pt-48 lg:pt-80 md:-ml-28 lg:-ml-64 space-y-3 md:space-y-5 flex flex-col items-start px-8 md:px-0 -mt-96 md:mt-0'>
                 
               <div className='bg-white h-1 md:h-2 md:w-32 w-24 '></div>
-              <p className=' text-white text-4xl font-dpTitle md:tracking-wider'>i'm omal, a <br/> <span className='text-logoBlue'>full-stack</span> developer</p>
+              <p className=' text-white text-4xl font-kanit md:tracking-wider'>i'm omal, a <br/> <span className='text-logoBlue'>full-stack</span> developer</p>
               <p className='max-w-lg text-sm md:text-base text-gray-300'>I am a skilled full-stack web developer specializing in React and Node.js.
 I am passionate about translating creative ideas into efficient 
 and impactful web solutions.</p>

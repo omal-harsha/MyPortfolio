@@ -8,8 +8,10 @@ module.exports = {
       fontFamily: {
         'logoFont' : ['Titillium Web', 'sans-serif'],
         'menuFont' : ['Inter', 'sans-serif'],
-        'dpTitle' : ['Kanit', 'sans-serif'],
-        'poppins' : ['Poppins', 'sans-seri']
+        'kanit' : ['Kanit', 'sans-serif'],
+        'poppins' : ['Poppins', 'sans-seri'],
+        'openSans': ['Open Sans', 'sans-serif'],
+        'oswald': ['Oswald', 'sans-serif']
       },
       colors : {
         logoBlue: "#19609D",

@@ -12,11 +12,11 @@ export const Navbar = () => {
         </div>
         <div className='hidden md:flex space-x-16 font-menuFont text-white'>
           
-          <h1 className='border-b-2 border-transparent transition-all duration-300 hover:border-logoBlue hover:border-b-2 cursor-pointer'>Home</h1>
-          <h1 className='border-b-2 border-bgBlack transition-all duration-300 hover:border-logoBlue hover:border-b-2 cursor-pointer'>About</h1>
-          <h1 className='border-b-2 border-bgBlack transition-all duration-300 hover:border-logoBlue hover:border-b-2 cursor-pointer'>Skills</h1>
-          <h1 className='border-b-2 border-bgBlack transition-all duration-300 hover:border-logoBlue hover:border-b-2 cursor-pointer'>Projects</h1>
-          <h1 className='border-b-2 border-bgBlack transition-all duration-300 hover:border-logoBlue hover:border-b-2 cursor-pointer'>Contact</h1>
+          <h1 className='border-b-2 border-transparent transition-all duration-300 hover:scale-105 hover:border-logoBlue hover:border-b-2 cursor-pointer'>Home</h1>
+          <h1 className='border-b-2 border-transparent transition-all duration-500 hover:border-logoBlue hover:border-b-2 cursor-pointer'>About</h1>
+          <h1 className='border-b-2 border-transparent transition-all duration-500 hover:border-logoBlue hover:border-b-2 cursor-pointer'>Skills</h1>
+          <h1 className='border-b-2 border-transparent transition-all duration-500 hover:border-logoBlue hover:border-b-2 cursor-pointer'>Projects</h1>
+          <h1 className='border-b-2 border-transparent transition-all duration-500 hover:border-logoBlue hover:border-b-2 cursor-pointer'>Contact</h1>
         </div>
     </div>
   )
