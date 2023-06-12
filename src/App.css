@@ -1,0 +1,20 @@
+.icon-class::after{
+    content: '';
+    height: 3px;
+    width: 40%;
+    background-color: #B5B6BA;
+    display: block;
+    transition: 0.25s ease-in-out;
+    margin-top: 5px;
+    
+   
+  }
+  .icon-class:hover::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background-color: #1C5539;
+    display: block;
+    transform:scaleX(1);
+    transform-origin: bottom right;
+  }

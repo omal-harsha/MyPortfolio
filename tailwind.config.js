@@ -7,10 +7,13 @@ module.exports = {
     extend: {
       fontFamily: {
         'logoFont' : ['Titillium Web', 'sans-serif'],
-        'menuFont' : ['Inter', 'sans-serif']
+        'menuFont' : ['Inter', 'sans-serif'],
+        'dpTitle' : ['Kanit', 'sans-serif'],
+        'poppins' : ['Poppins', 'sans-seri']
       },
       colors : {
-        logoBlue: "#19609D"
+        logoBlue: "#19609D",
+        bgBlack: "#1A1919"
       }
     }
     ,
