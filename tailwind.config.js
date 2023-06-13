@@ -15,7 +15,9 @@ module.exports = {
       },
       colors : {
         logoBlue: "#19609D",
-        bgBlack: "#1A1919"
+        bgBlack: "#1A1919",
+        cardBottomBlack: '#4E4D4D',
+        cardTopBlack: '#464545'
       }
     }
     ,
