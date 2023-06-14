@@ -1,19 +1,30 @@
 import React from 'react'
+import {skillsData} from '../components/SkillsData.js'
 
 export const Skills = () => {
+
+  console.log(skillsData)
+
   return (
-    <div className='bg-bgBlack h-screen px-40 pt-10'>
+    <div className='bg-bgBlack px-4 md:px-20 lg:px-40 pt-10 lg:pt-20 pb-20'>
       <div>
-        <h1 className='hidden md:flex text-logoBlue text-5xl font-kanit font-bold '>Skills</h1>
+        <h1 className=' md:flex text-logoBlue text-4xl md:text-5xl font-kanit font-bold sm:ml-3 md:ml-0'>My Skills</h1>
       </div>
-      <div className='mt-10'> 
-        <div className=' w-72 rounded-2xl flex flex-col items-center justify-center  h-28 bg-gradient-to-b from-cardBottomBlack to-bgBlack border-gray-700 shadow-2xl py-1'>
-        <svg className='w-14' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
-<path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"></path><path fill="#EEE" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"></path>
-</svg>
-    <h1 className='text-white'>CSS</h1>
-    <p className='text-white'>(Cascading Style Sheets)</p>
-        </div>
+
+      {/* skill card */}
+      <div className='mt-10 flex gap-3 md:gap-8 flex-wrap justify-around md:justify-center lg:pt-10'> 
+
+              {skillsData.map((data,i) => (
+            <div className='group cursor-pointer w-36 md:w-52 lg:w-60 mb-5 rounded-2xl flex flex-col items-center justify-center h-20 md:h-28 bg-gradient-to-b from-cardBottomBlack to-bgBlack border-gray-700 shadow-2xl' key={i}>
+                <div className='text-center'>
+                   <img src={data.logo} alt="" className='w-10 md:w-14 mx-auto group-hover:scale-125 duration-200  md:mt-0'/>
+                  <h1 className='text-white sm:text-sm md:text-base'>{data.title}</h1>
+                  <p className='text-gray-400 font-openSans text-xs '>{data.desc}</p>
+                </div>
+            </div>
+              ))}
+
+        
       </div>
     </div>
   )
