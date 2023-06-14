@@ -3,7 +3,7 @@ import { UilBars } from '@iconscout/react-unicons'
 
 export const Navbar = () => {
   return (
-    <div className='flex justify-between px-8 md:px-20 lg:px-40 bg-gray-500/5 py-6 items-center fixed w-full  backdrop-filter backdrop-blur-md '>
+    <div className='flex justify-between px-8 md:px-20 lg:px-40 bg-gray-500/5 py-6 items-center fixed  w-full  backdrop-filter backdrop-blur-md '>
         <div>
             <h1 className='text-2xl md:text-5xl font-bold text-logoBlue font-logoFont'>&lt;<span className='text-white'>omal</span>/&gt;</h1>
         </div>
