@@ -15,8 +15,8 @@ export const Skills = () => {
       <div className='mt-10 flex gap-3 md:gap-8 flex-wrap justify-around md:justify-center lg:pt-10'> 
 
               {skillsData.map((data,i) => (
-            <div className='group cursor-pointer w-36 md:w-52 lg:w-60 mb-5 rounded-2xl flex flex-col items-center justify-center h-20 md:h-28 bg-gradient-to-b from-cardBottomBlack to-bgBlack border-gray-700 shadow-2xl' key={i}>
-                <div className='text-center'>
+            <div className='group cursor-pointer w-36  md:w-52 lg:w-60 mb-5 rounded-2xl flex flex-col items-center justify-center h-20 md:h-28 bg-gradient-to-b from-cardBottomBlack to-bgBlack border-gray-700 shadow-2xl' key={i}>
+                <div className='text-center '>
                    <img src={data.logo} alt="" className='w-10 md:w-14 mx-auto group-hover:scale-125 duration-200  md:mt-0'/>
                   <h1 className='text-white sm:text-sm md:text-base'>{data.title}</h1>
                   <p className='text-gray-400 font-openSans text-xs '>{data.desc}</p>
