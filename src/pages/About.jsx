@@ -32,7 +32,7 @@ export const About = () => {
         
         {/* -------two buttons----- */}
         <div className='space-x-10 flex sm:justify-center md:justify-start sm:my-10'>
-            <button className='bg-logoBlue px-5 md:px-10 py-2 font-oswald text-lg md:text-2xl text-white hover:scale-105 duration-300'>Hire me</button>
+            <a href='#contact' className='bg-logoBlue px-5 md:px-10 py-2 font-oswald text-lg md:text-2xl text-white hover:scale-105 duration-300'>Hire me</a>
             <button className='bg-white px-5 md:px-10 py-2 font-oswald text-lg md:text-2xl text-logoBlue hover:scale-105 duration-300'>Resume</button>
           </div>
         
