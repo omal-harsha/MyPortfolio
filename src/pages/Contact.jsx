@@ -14,13 +14,7 @@ export const Contact = () => {
 
   const [btntext,setBtnText] = useState("Send")
 
-  const clearFormData = () => {
-    setUserData({
-      from_name: '',
-      user_email: '',
-      message: ''
-    });
-  };
+
   
 
   //store input data
@@ -37,7 +31,7 @@ export const Contact = () => {
     setBtnText("Sending...")
     
   //email send
-  emailjs.send('service_czjm47h','template_5wyf7oh', userData, 'DhnDLjr1U1wVqzo6s')
+  emailjs.send(process.env.REACT_APP_SERVICE_ID,process.env.REACT_APP_TEMPLATE_ID, userData, process.env.REACT_APP_PUBLIC_KEY)
     .then((response) => {
        console.log('SUCCESS!', response.status, response.text);
        setUserData({
