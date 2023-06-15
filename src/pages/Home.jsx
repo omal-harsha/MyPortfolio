@@ -2,19 +2,27 @@ import React from 'react'
 import { UilFacebookF,UilInstagram,UilTwitter,UilLinkedin,UilGithub,UilYoutube } from '@iconscout/react-unicons'
 
 export const Home = () => {
+
+
   return (
 
     
     <div id='home' className='md:h-screen  bg-bgBlack'>
       <div className="md:flex">
 
-        {/* my photo */}
-          <img className='h-screen hidden md:flex' src='https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/images%2FhomeWeb.jpg?alt=media&token=001654a9-6683-409b-be59-481d04e2e753&_gl=1*7reky8*_ga*MTgyOTgzNTkwNi4xNjgzMTc2MTE3*_ga_CW55HF8NVT*MTY4NjU1MjIyMy4zNS4xLjE2ODY1NTIyNjEuMC4wLjA.'/>
+        {/* --------------my photo---------------- */}
 
+        {/* -web screen- */}
+          <img className='h-screen hidden md:flex' src='https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/myPhoto%2FhomeWeb.jpg?alt=media&token=1275a38d-e446-4eb8-8e51-5d629debaa47'/>
+
+        {/* -mobile screen- */}
           <img className=' md:hidden ' src='https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/images%2FhomeMobile.jpg?alt=media&token=114ec791-fbe2-4c05-a109-de99077b5f94&_gl=1*1fziybm*_ga*MTgyOTgzNTkwNi4xNjgzMTc2MTE3*_ga_CW55HF8NVT*MTY4NjU1ODI3Ni4zNi4xLjE2ODY1NTg2NjQuMC4wLjA.'/>
           
           {/* my name and intro */}
-          <div className='pt-48 lg:pt-80 md:-ml-28 lg:-ml-64 space-y-3 md:space-y-5 flex flex-col items-start px-8 md:px-0 -mt-96 md:mt-0'>
+          <div 
+          data-aos='fade-down'
+          data-aos-delay="1200"
+          className='pt-48 lg:pt-80 md:-ml-28 lg:-ml-64 space-y-3 md:space-y-5 flex flex-col items-start px-8 md:px-0 -mt-96 md:mt-0'>
                 
               <div className='bg-white h-1 md:h-2 md:w-32 w-24 '></div>
               <p className=' text-white text-4xl font-kanit md:tracking-wider'>i'm omal, a <br/> <span className='text-logoBlue'>full-stack</span> developer</p>

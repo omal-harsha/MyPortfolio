@@ -39,7 +39,10 @@ export const About = () => {
         </div>
 
         {/* --------desktop view photo------ */}
-        <div>
+        <div
+        data-aos="slide-left"
+        data-aos-delay="200"
+        >
           <img className='h-screen hidden md:flex' src='https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/images%2Fabout(web).png?alt=media&token=e0d04401-3fab-4f5a-9a07-ba8666eb8b08&_gl=1*j9e62v*_ga*MTgyOTgzNTkwNi4xNjgzMTc2MTE3*_ga_CW55HF8NVT*MTY4NjU2NjIzNy4zNy4xLjE2ODY1NjcwNTguMC4wLjA.'/>
         </div>
     </div>
