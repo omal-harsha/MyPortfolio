@@ -5,7 +5,7 @@ export const Home = () => {
   return (
 
     
-    <div className='md:h-screen  bg-bgBlack'>
+    <div id='home' className='md:h-screen  bg-bgBlack'>
       <div className="md:flex">
 
         {/* my photo */}

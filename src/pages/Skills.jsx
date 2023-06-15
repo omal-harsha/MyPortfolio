@@ -6,7 +6,7 @@ export const Skills = () => {
   console.log(skillsData)
 
   return (
-    <div className='bg-bgBlack px-4 md:px-20 lg:px-40 pt-10 lg:pt-20 pb-10 md:pb-20'>
+    <div id='skills' className='bg-bgBlack px-4 md:px-20 lg:px-40 pt-20 md:pt-24 pb-10 md:pb-20'>
       <div>
         <h1 className=' md:flex text-logoBlue text-4xl md:text-5xl font-kanit font-bold sm:ml-3 md:ml-0'>My Skills</h1>
       </div>

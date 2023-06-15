@@ -14,7 +14,8 @@ import { Pagination,Navigation } from 'swiper';
 
 export const Projects = () => {
   return (
-    <div className='bg-bgBlack  md:py-10 '>
+    <div id='projects' className='bg-bgBlack md:h-screen md:pt-24 pt-20'>
+      <div className='my-auto'>
       <div className='lg:px-40 md:px-20 sm:px-10'>
       <h1 className=' md:flex text-logoBlue text-4xl md:text-5xl font-kanit font-bold  md:ml-0'>My Projects</h1>
       <p className='font-openSans text-gray-400 text-xs pt-5 md:text-sm md:pt-20'>Here, you'll find a collection of my diverse and innovative projects. Each project showcases my skills and expertise in web development. 
@@ -55,7 +56,8 @@ allowing you to delve deeper into the project's implementation details.</p>
 
     </Swiper>
     </div>
-
+    </div>
+    <div className='md:flex hidden bg-gray-500 mx-auto mt-10 md:mt-20 h-[1px] md:h-[2px] rounded-full md:w-52 w-24 '></div>
     </div>
   )
 }

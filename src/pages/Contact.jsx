@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Contact = () => {
   return (
-    <div className='bg-bgBlack flex lg:pl-40 md:justify-between md:pl-20 md:flex-row sm:flex-col-reverse sm:pb-10 md:pb-0'>
+    <div id='contact' className='bg-bgBlack flex lg:pl-40 md:justify-between md:pl-20 md:flex-row sm:flex-col-reverse sm:pb-10 md:pb-0 pt-10 md:pt-16 lg:pt-0'>
       <div className='flex flex-col space-y-3 md:space-y-5 sm:px-8 md:px-0 sm:-mt-20 md:mt-0'>
           <h1 className=' md:flex text-white md:my-10 text-3xl md:text-5xl font-kanit font-bold md:ml-0'>Contact me</h1>
           <input type='text' required className='w-full md:w-96 bg-transparent border border-gray-200 py-2 px-2 text-sm md:text-lg text-white font-sans focus:outline-none' placeholder='Name'/>
