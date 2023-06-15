@@ -28,7 +28,7 @@ export const Contact = () => {
     setBtnText("Sending...")
     
   //email send
-  emailjs.send(process.env.REACT_APP_SERVICE_ID,process.env.REACT_APP_TEMPLATE_ID, userData, process.env.REACT_APP_PUBLIC_KEY)
+  emailjs.send(process.env.REACT_APP_SERVICE_ID,process.env.REACT_APP_TEMPLATE_ID, userData, 'DhnDLjr1U1wVqzo6s')
     .then((response) => {
        console.log('SUCCESS!', response.status, response.text);
        setUserData({
