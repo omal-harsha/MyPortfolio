@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom'
 export const Navbar = () => {
 
   const [toggleMenu,setToggleMenu] = useState(false)
-  console.log(toggleMenu)
 
   const togleHandle = () => {
     setToggleMenu(!toggleMenu)
