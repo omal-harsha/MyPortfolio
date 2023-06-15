@@ -5,7 +5,7 @@ import toast, { Toaster } from "react-hot-toast";
 
 export const Contact = () => {
 
-
+  //user data
   const [userData, setUserData] =  useState({
     from_name: '',
     user_email: '',
@@ -13,9 +13,6 @@ export const Contact = () => {
   })
 
   const [btntext,setBtnText] = useState("Send")
-
-
-  
 
   //store input data
   const handleChnge = (e) => {
