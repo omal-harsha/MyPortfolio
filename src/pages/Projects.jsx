@@ -14,7 +14,7 @@ import { Pagination,Navigation } from 'swiper';
 
 export const Projects = () => {
   return (
-    <div className='bg-bgBlack  md:py-20 '>
+    <div className='bg-bgBlack  md:py-10 '>
       <div className='lg:px-40 md:px-20 sm:px-10'>
       <h1 className=' md:flex text-logoBlue text-4xl md:text-5xl font-kanit font-bold  md:ml-0'>My Projects</h1>
       <p className='font-openSans text-gray-400 text-xs pt-5 md:text-sm md:pt-20'>Here, you'll find a collection of my diverse and innovative projects. Each project showcases my skills and expertise in web development. 

@@ -6,7 +6,7 @@ export const Skills = () => {
   console.log(skillsData)
 
   return (
-    <div className='bg-bgBlack px-4 md:px-20 lg:px-40 pt-10 lg:pt-20 pb-20'>
+    <div className='bg-bgBlack px-4 md:px-20 lg:px-40 pt-10 lg:pt-20 pb-10 md:pb-20'>
       <div>
         <h1 className=' md:flex text-logoBlue text-4xl md:text-5xl font-kanit font-bold sm:ml-3 md:ml-0'>My Skills</h1>
       </div>
@@ -26,6 +26,7 @@ export const Skills = () => {
 
         
       </div>
+      <div className='bg-gray-500 mx-auto mt-10 md:mt-20 h-[1px] md:h-[2px] rounded-full md:w-52 w-24 '></div>
     </div>
   )
 }
