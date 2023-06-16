@@ -54,7 +54,7 @@ export const ProjectData = [
         title: "Job portal",
         cover: "https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/projects%2Fjobportal.png?alt=media&token=f5adf5fc-3989-4ab9-8928-90e3c561d067",
         liveDemo: "https://job-portal-lime.vercel.app/",
-        sourceCode: ""
+        sourceCode: "https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/projects%2Fbanner.jpg?alt=media&token=edf48b09-f25c-4151-9e21-8c22b5f7c90a"
     },
     {
         id:9,
@@ -68,7 +68,7 @@ export const ProjectData = [
         id: 10,
         title: "Gambling site",
         cover:"https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/projects%2FGambling%20site.png?alt=media&token=3ffce760-8365-4d47-8c77-4ee7b1cdb235",
-        liveDemo: "",
-        sourceCode: ""
+        liveDemo: "https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/projects%2Fbanner.jpg?alt=media&token=edf48b09-f25c-4151-9e21-8c22b5f7c90a",
+        sourceCode: "https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/projects%2Fbanner.jpg?alt=media&token=edf48b09-f25c-4151-9e21-8c22b5f7c90a"
     }
 ]
