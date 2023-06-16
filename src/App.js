@@ -13,6 +13,12 @@ import { Skills } from './pages/Skills';
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+//import motion
+import {motion} from 'framer-motion'
+import { AnimatePresence } from 'framer-motion';
+
+
+
 function App() {
 
   useEffect(() => {
@@ -25,14 +31,15 @@ function App() {
 
   return (
     <div>
-      <Navbar/>
-      {/* <MobleMenu/> */}
-      <Home/>
-      <About/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+      <AnimatePresence initial={true} mode='wait'>
+        <Navbar/>
+        <Home/>
+        <About/>
+        <Skills/>
+        <Projects/>
+        <Contact/>
+        <Footer/>
+      </AnimatePresence>
     </div>
   );
 }

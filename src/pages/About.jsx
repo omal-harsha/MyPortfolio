@@ -1,9 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { motion } from 'framer-motion';
+import {PopUp} from '../components/PopUp'
+
 
 export const About = () => {
+
+  const [openPop, setOpenPop] = useState(false);
+
+  const handleDownload = () => {
+    
+  const fileUrl = process.env.PUBLIC_URL + '/omalharsha.pdf';
+  const link = document.createElement('a');
+  link.href = fileUrl;
+  link.download = 'omalharsha.pdf';
+  link.click();
+  };
+
   return (
     <div id='about' className='md:h-screen sm:pt-8 md:pt-0 flex lg:px-20 bg-bgBlack'>
-      
+      {openPop && <PopUp setOpenPop={setOpenPop} handleDownload={handleDownload}/>}
         <div className='md:mt-32 lg:mt-40 sm:px-8 md:pl-20 flex-1 md:flex-col md:space-y-8 text-left sm:text-xs md:text-sm'>
           <h1 className='hidden md:flex text-logoBlue text-5xl font-kanit font-bold '>About me</h1>
 
@@ -33,18 +48,21 @@ export const About = () => {
         {/* -------two buttons----- */}
         <div className='space-x-10 flex sm:justify-center md:justify-start sm:my-10'>
             <a href='#contact' className='bg-logoBlue px-5 md:px-10 py-2 font-oswald text-lg md:text-2xl text-white hover:scale-105 duration-300'>Hire me</a>
-            <button className='bg-white px-5 md:px-10 py-2 font-oswald text-lg md:text-2xl text-logoBlue hover:scale-105 duration-300'>Resume</button>
+            <button onClick={()=> setOpenPop(!openPop)} className='bg-white px-5 md:px-10 py-2 font-oswald text-lg md:text-2xl text-logoBlue hover:scale-105 duration-300'>Resume</button>
           </div>
         
         </div>
 
         {/* --------desktop view photo------ */}
-        <div
+        <motion.div
         data-aos="slide-left"
         data-aos-delay="200"
+  //       initial={{opacity:0}}
+  // animate={{opacity:1}}
+  // exit={{opacity:0}}
         >
           <img className='h-screen hidden md:flex' src='https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/images%2Fabout(web).png?alt=media&token=e0d04401-3fab-4f5a-9a07-ba8666eb8b08&_gl=1*j9e62v*_ga*MTgyOTgzNTkwNi4xNjgzMTc2MTE3*_ga_CW55HF8NVT*MTY4NjU2NjIzNy4zNy4xLjE2ODY1NjcwNTguMC4wLjA.'/>
-        </div>
+        </motion.div>
     </div>
   )
 }

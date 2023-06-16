@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { UilBars,UilMultiply } from '@iconscout/react-unicons'
 import { MobleMenu } from './MobleMenu'
-import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
 

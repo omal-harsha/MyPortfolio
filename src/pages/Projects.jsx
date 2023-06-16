@@ -1,6 +1,5 @@
 import React from 'react'
 import {ProjectData} from '../components/ProjectsData.js'
-import { Link } from 'react-router-dom';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';

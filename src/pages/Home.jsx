@@ -1,5 +1,6 @@
 import React from 'react'
-import { UilFacebookF,UilInstagram,UilTwitter,UilLinkedin,UilGithub,UilYoutube } from '@iconscout/react-unicons'
+import { UilFacebookF,UilTwitter,UilLinkedin,UilGithub,UilYoutube } from '@iconscout/react-unicons'
+
 
 export const Home = () => {
 
