@@ -41,5 +41,34 @@ export const ProjectData = [
         cover: "https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/projects%2FBookStore.png?alt=media&token=de7f384e-b290-4c2c-a4a9-b6b8262ac1c9",
         liveDemo: "https://books-site.vercel.app/",
         sourceCode: "https://github.com/omal-harsha/books-site-client"
+    },
+    {
+        id:7,
+        title: "Firebase auth",
+        cover: "https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/projects%2FfirebaseAuth.png?alt=media&token=b9682184-f6d5-4e70-a471-6e2ff4d13f3c",
+        liveDemo: "https://firebase-auth-eosin.vercel.app/",
+        sourceCode: "https://github.com/omal-harsha/firebaseAuth"
+    },
+    {
+        id:8,
+        title: "Job portal",
+        cover: "https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/projects%2Fjobportal.png?alt=media&token=f5adf5fc-3989-4ab9-8928-90e3c561d067",
+        liveDemo: "https://job-portal-lime.vercel.app/",
+        sourceCode: ""
+    },
+    {
+        id:9,
+        title: "My Portfolio",
+        cover: "https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/projects%2FmyportFolio.png?alt=media&token=56ab1ea5-e2b8-498c-a71e-22e12358ca0f",
+        liveDemo: "https://www.omalharsha.me/",
+        sourceCode: "https://github.com/omal-harsha/MyPortfolio"
+
+    },
+    {
+        id: 10,
+        title: "Gambling site",
+        cover:"https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/projects%2FGambling%20site.png?alt=media&token=3ffce760-8365-4d47-8c77-4ee7b1cdb235",
+        liveDemo: "",
+        sourceCode: ""
     }
 ]
