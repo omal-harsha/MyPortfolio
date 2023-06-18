@@ -90,4 +90,16 @@ export const skillsData = [
         title: "GitHub ",
         desc: "(version control)"
     },
+    {
+        id: 16,
+        logo: "https://img.icons8.com/color/144/firebase.png",
+        title: "Firebase",
+        desc: "(Cloud app platform)"
+    },
+    {
+        id: 17,
+        logo: "https://img.icons8.com/color/144/jira.png",
+        title: "JIRA",
+        desc: "(Project management tool)"
+    }
 ]
