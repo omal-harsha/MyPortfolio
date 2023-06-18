@@ -9,7 +9,7 @@ export const About = () => {
 
   const handleDownload = () => {
     
-  const fileUrl = process.env.PUBLIC_URL + '/omalharsha.pdf';
+  const fileUrl = process.env.REACT_APP_PREVIEW_CV;
   const link = document.createElement('a');
   link.href = fileUrl;
   link.download = 'omalharsha.pdf';
