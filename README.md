@@ -4,7 +4,7 @@ Welcome to my portfolio! This website showcases my projects and skills, providin
 
 ## Overview
 
-This portfolio was designed and developed using React and Tailwind CSS. The design was created using Figma, and you can find the design file [here](https://www.figma.com/file/VC9BhfLeIvXmRu3qY7Jel3/MyPortfolio?type=design&t=63QHDVcjBu0GUghN-6)https://www.figma.com/file/VC9BhfLeIvXmRu3qY7Jel3/MyPortfolio?type=design&t=63QHDVcjBu0GUghN-6.
+This portfolio was designed and developed using React and Tailwind CSS. The design was created using Figma, and you can find the design file [here](https://www.figma.com/file/VC9BhfLeIvXmRu3qY7Jel3/MyPortfolio?type=design&t=63QHDVcjBu0GUghN-6)https://www.figma.com/file/VC9BhfLeIvXmRu3qY7Jel3/MyPortfolio?type=design&t=63QHDVcjBu0GUghN-6
 
 ## Features
 
