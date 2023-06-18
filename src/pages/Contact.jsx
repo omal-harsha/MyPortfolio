@@ -46,7 +46,8 @@ export const Contact = () => {
   }
 
   return (
-    <div id='contact' className='bg-bgBlack flex lg:pl-40 md:justify-between md:pl-20 md:flex-row sm:flex-col-reverse sm:pb-10 md:pb-0 pt-10 md:pt-16 lg:pt-0'>
+    <div id='contact' className='bg-bgBlack flex lg:pl-40 md:justify-between  md:flex-row sm:flex-col-reverse sm:pb-10 md:pb-0 pt-10 md:pt-0  lg:pt-0'> 
+    {/* md:pt-16 */}
       <Toaster />
       <form className='flex flex-col space-y-3 md:space-y-5 sm:px-8 md:px-0 sm:-mt-20 md:mt-0 z-[500]'
       onSubmit={handleClick}

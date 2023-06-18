@@ -43,7 +43,7 @@ allowing you to delve deeper into the project's implementation details.</p>
         <SwiperSlide key={i} className='md:px-5  lg:ml-0 '>
           <div 
           data-aos="fade-up"
-          className='bg-gray-600 w-max  sm:px-6 md:px-0 lg:w-96  py-5 rounded-3xl mb-12 mx-auto  cursor-grab '>
+          className='bg-gray-600 w-max  sm:px-6 md:px-0 lg:w-96  py-5 rounded-3xl  mx-auto  cursor-grab '>
             <h1 className='text-white -mt-3 py-1 font-kanit text-xl'>{project.title}</h1>
             <img src={project.cover} className='w-60 md:w-72 md:mx-5 lg:mx-auto lg:w-80 rounded-t-3xl '/>
             <div className='flex md:w-72 lg:w-80 mx-auto'>

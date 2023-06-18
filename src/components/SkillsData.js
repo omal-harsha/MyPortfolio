@@ -40,7 +40,7 @@ export const skillsData = [
         id: 7,
         logo: "https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/icons%2Ficons8-express-js-144.png?alt=media&token=8a2a9049-a5fa-468a-ad11-a11bab3ab022",
         title: "Express.js",
-        desc: "( framework for Node.js)"
+        desc: "(framework for Node.js)"
     },
     {
         id: 8,
@@ -90,4 +90,18 @@ export const skillsData = [
         title: "GitHub ",
         desc: "(version control)"
     },
+    {
+        id: 16,
+        logo: "https://img.icons8.com/color/144/firebase.png",
+        title: "Firebase",
+        desc: "(Cloud app platform)"
+    },
+    {
+        id: 17,
+        logo: "https://img.icons8.com/color/144/jira.png",
+        title: "JIRA",
+        desc: "(Project management tool)"
+    }
+    
+    
 ]
