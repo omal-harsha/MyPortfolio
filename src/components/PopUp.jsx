@@ -20,8 +20,8 @@ export const PopUp = ({setOpenPop,handleDownload}) => {
   return (
     <div className='h-screen flex justify-center z-[500] items-center fixed top-0 left-1/2 transform -translate-x-1/2  w-screen'>
         <div
-        data-aos='zoom-in'
-        data-aos-duration="200"
+        // data-aos='zoom-in'
+        // data-aos-duration="200"
         className='flex backdrop-blur-lg  backdrop-filter flex-col justify-center items-center w-max mx-auto px-2 md:px-5 py-4  rounded-lg shadow-xl bg-gray-500/50'>
             <div className={`text-2xl font-bold text-white mb-5`}>Enter PIN</div>
             {title && <p className='text-xs text-red-600 mb-2'>Incrrect PIN number</p>}

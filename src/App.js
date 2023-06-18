@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div>
-      <AnimatePresence initial={true} mode='wait'>
+      {/* <AnimatePresence initial={true} mode='wait'> */}
         <Navbar/>
         <Home/>
         <About/>
@@ -39,7 +39,7 @@ function App() {
         <Projects/>
         <Contact/>
         <Footer/>
-      </AnimatePresence>
+      {/* </AnimatePresence> */}
     </div>
   );
 }
