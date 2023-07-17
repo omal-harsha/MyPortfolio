@@ -17,7 +17,7 @@ export const Home = () => {
           <img className='h-screen hidden md:flex' src='https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/myPhoto%2FhomeWeb.jpg?alt=media&token=1275a38d-e446-4eb8-8e51-5d629debaa47'/>
 
         {/* -mobile screen- */}
-          <img className=' md:hidden ' src='https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/images%2FhomeMobile.jpg?alt=media&token=114ec791-fbe2-4c05-a109-de99077b5f94&_gl=1*1fziybm*_ga*MTgyOTgzNTkwNi4xNjgzMTc2MTE3*_ga_CW55HF8NVT*MTY4NjU1ODI3Ni4zNi4xLjE2ODY1NTg2NjQuMC4wLjA.'/>
+          <img className=' md:hidden ' src='https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/images%2FhomeMobile.jpg?alt=media&token=114ec791-fbe2-4c05-a109-de99077b5f94'/>
           
           {/* my name and intro */}
           <div 
