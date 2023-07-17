@@ -29,7 +29,7 @@ export const About = () => {
 
                     About me
               </h1>
-              <img className='-ml-8' src='https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/images%2Fabout(mobile).png?alt=media&token=1d09214f-f19a-41b0-875f-845cd7e2a9f7&_gl=1*x58lzx*_ga*MTgyOTgzNTkwNi4xNjgzMTc2MTE3*_ga_CW55HF8NVT*MTY4NjU3NzE1NS4zOC4xLjE2ODY1Nzc2MjguMC4wLjA.'/>
+              <img className='-ml-8' src='https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/myPhoto%2Fabout(mobile).jpg?alt=media&token=cf3a4fe8-6679-4de1-8b39-7dd370e3ab1e'/>
           </div>
 
               {/* -------paragrph section---- */}
