@@ -24,7 +24,7 @@ export const ProjectData = [
     {
         id:4,
         title: "Movie Land",
-        cover: "https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/projects%2FmovieLand.png?alt=media&token=82fe0c43-f7ee-4d34-8a83-7cd8636e3b54",
+        cover: "https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/projects%2FmovieLand.png?alt=media&token=65e9475e-f862-4eb5-a3d9-8a4974ea3c7b",
         liveDemo: "https://movie-land-umber.vercel.app/",
         sourceCode: "https://github.com/omal-harsha/movie_land"
     },
