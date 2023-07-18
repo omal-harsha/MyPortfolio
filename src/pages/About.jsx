@@ -61,7 +61,7 @@ export const About = () => {
   // animate={{opacity:1}}
   // exit={{opacity:0}}
         >
-          <img className='h-screen hidden md:flex' src='https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/images%2Fabout(web).png?alt=media&token=e0d04401-3fab-4f5a-9a07-ba8666eb8b08&_gl=1*j9e62v*_ga*MTgyOTgzNTkwNi4xNjgzMTc2MTE3*_ga_CW55HF8NVT*MTY4NjU2NjIzNy4zNy4xLjE2ODY1NjcwNTguMC4wLjA.'/>
+          <img className='h-screen hidden md:flex' src='https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/myPhoto%2Fabout(web).png?alt=media&token=589a10c6-b806-4a54-a612-7e2f7da54fe1'/>
         </motion.div>
     </div>
   )
