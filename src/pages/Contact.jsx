@@ -59,7 +59,7 @@ export const Contact = () => {
           
           </button>
       </form>
-      <div className='self-end'
+      <div 
       data-aos="slide-left"
       
       >
