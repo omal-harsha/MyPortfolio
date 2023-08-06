@@ -70,7 +70,7 @@ export const Contact = () => {
       </div>
       
       {/* mobile screen */}
-      <div className='self-end'>  
+      <div className='justify-end'>  
         <img src='https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/myPhoto%2Fcontact(mobile).png?alt=media&token=9b21f084-179b-4f73-bdda-2be69beaad90' className='md:hidden w-[300px] self-end '/>
       </div>
     </div>
