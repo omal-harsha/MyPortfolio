@@ -59,21 +59,20 @@ export const Contact = () => {
           
           </button>
       </form>
-      {/* comment */}
        <div>
-      {/* web screen */}
-      <div 
-      data-aos="slide-left"
-        data-aos-delay="200"
-      >
-        <img src='https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/myPhoto%2Fcontact(web).png?alt=media&token=ec6dcda3-1c73-4ad6-9517-990b9a65d11b' className='w-[800px] hidden md:flex'/>  
-      </div>
+        {/* web screen */}
+        <div 
+        data-aos="slide-left"
+          data-aos-delay="200"
+        >
+          <img src='https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/myPhoto%2Fcontact(web).png?alt=media&token=ec6dcda3-1c73-4ad6-9517-990b9a65d11b' className='w-[800px] hidden md:flex'/>  
+        </div>
       
-      {/* mobile screen */}
-      <div className='justify-end'>  
-        <img src='https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/myPhoto%2Fcontact(mobile).png?alt=media&token=9b21f084-179b-4f73-bdda-2be69beaad90' className='md:hidden w-[300px] self-end '/>
+        {/* mobile screen */}
+        <div className='flex justify-end'>  
+          <img src='https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/myPhoto%2Fcontact(mobile).png?alt=media&token=9b21f084-179b-4f73-bdda-2be69beaad90' className='md:hidden w-[300px] self-end '/>
+        </div>
       </div>
     </div>
-      </div>
   )
 }
