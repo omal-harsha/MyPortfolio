@@ -62,7 +62,7 @@ export const skillsData = [
     },
     {
         id: 11,
-        logo: "https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/icons%2FmongoDB.png?alt=media&token=9f8e5687-e6b8-4b62-9850-c916bd1adef5&_gl=1*15pjvqh*_ga*ODA5OTMwOTI1LjE2OTYwNjMyMTg.*_ga_CW55HF8NVT*MTY5NjA2MzIxOC4xLjEuMTY5NjA2MzM2Ny4xOS4wLjA.",
+        logo: "https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/icons%2FmongoDB2.png?alt=media&token=add09531-3f61-44b1-9c24-2c03a6cc8ebd&_gl=1*alhrf3*_ga*ODA5OTMwOTI1LjE2OTYwNjMyMTg.*_ga_CW55HF8NVT*MTY5NjE0NTg5Ny4zLjEuMTY5NjE0NTkyOC4yOS4wLjA.",
         title: "MongoDB",
         desc: "(NoSQL Database)"
     },
@@ -82,7 +82,7 @@ export const skillsData = [
         id: 14,
         logo: "https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/icons%2FSequelize.png?alt=media&token=a2b14c24-7485-4855-9694-77f7c613a204&_gl=1*1i7fkhk*_ga*ODA5OTMwOTI1LjE2OTYwNjMyMTg.*_ga_CW55HF8NVT*MTY5NjA2MzIxOC4xLjEuMTY5NjA2MzM4OS42MC4wLjA.",
         title: "Sequelize",
-        desc: "(ORMfor Node.js)"
+        desc: "(ORM for Node.js)"
     },
     {
         id: 15,
