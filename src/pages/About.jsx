@@ -34,7 +34,7 @@ export const About = () => {
 
               {/* -------paragrph section---- */}
               <div className='sm:space-y-5 sm:-mt-20 '>
-                    <p className='font-openSans text-gray-400 '>Hi there! I'm Omal Harsha Nuwan, a skilled full-stack developer from Sri Lanka's Southern Province. 
+                    <p className='font-openSans text-gray-400 '>Hi there! I'm Omal Harsha Nuwan, a skilled full-stack developer from Dubai, UAE. 
           With a passion for technology and a hunger for learning, I thrive on challenges and adapt quickly to new technologies. 
           I bring over 3 years of quality assurance experience from a UK company.</p>
                     <p className='font-openSans text-gray-400 '>Education has been pivotal in my journey. I hold a Higher National Diploma in Information Technology from 
