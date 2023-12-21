@@ -11,7 +11,7 @@ export const Footer = () => {
         </div>
         <div className='flex space-x-2 cursor-pointer'>
           <UilWhatsapp/>
-          <a href="https://wa.me/94772945455" target='_blank'>+94 77 29 45 455</a>
+          <a href="https://wa.me/971525038774" target='_blank'>+971  52 503 8774</a>
         </div>
       </div>
       <div className='flex mt-3 space-x-2 items-center text-white mb-5 md:mb-0 sm:justify-center md:justify-end'>
