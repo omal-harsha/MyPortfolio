@@ -33,17 +33,31 @@ export const About = () => {
           </div>
 
               {/* -------paragrph section---- */}
-              <div className='sm:space-y-5 sm:-mt-20 '>
-                    <p className='font-openSans text-gray-400 '>Hi there! I'm Omal Harsha Nuwan, a skilled full-stack developer from Dubai, UAE. 
-          With a passion for technology and a hunger for learning, I thrive on challenges and adapt quickly to new technologies. 
-          I bring over 3 years of quality assurance experience from a UK company.</p>
-                    <p className='font-openSans text-gray-400 '>Education has been pivotal in my journey. I hold a Higher National Diploma in Information Technology from 
-          Sri Lanka Institute of Advanced Technological Education, and a BEng (Hons) in Software Engineering from London Metropolitan University. 
-          These qualifications provide a strong foundation for my work.</p>
-                    <p className='font-openSans text-gray-400 '>Beyond coding, I find joy in travel, photo and video editing, and photography. 
-          Exploring new destinations sparks my curiosity, while editing and photography unleash my creativity. 
-          Through my portfolio website, I aim to showcase my technical expertise alongside my creative pursuits.</p>
-              </div>
+<div className='sm:space-y-5 sm:-mt-20 '>
+  <p className='font-openSans text-gray-400 '>
+    Hi there! I'm Omal Harsha Nuwan, a skilled full-stack developer from Dubai, UAE. 
+    With a passion for technology and a hunger for learning, I thrive on challenges and adapt quickly to new technologies. 
+    I bring over 3 years of quality assurance experience from a UK company, and since 2023 I have been working as a full-stack web developer in the UAE.
+  </p>
+
+  <p className='font-openSans text-gray-400 '>
+  My professional journey has given me hands-on experience in frontend development, backend development, and database handling, 
+  along with client handling, testing, architecture design, and deployment. 
+  These experiences have strengthened my ability to deliver end-to-end solutions while ensuring quality and scalability.
+</p>
+
+  <p className='font-openSans text-gray-400 '>
+    Education has been pivotal in my journey. I hold a Higher National Diploma in Information Technology from 
+    Sri Lanka Institute of Advanced Technological Education, and a BEng (Hons) in Software Engineering from London Metropolitan University. 
+    These qualifications provide a strong foundation for my work.
+  </p>
+
+  <p className='font-openSans text-gray-400 '>
+    Beyond coding, I find joy in travel, photo and video editing, and photography. 
+    Exploring new destinations sparks my curiosity, while editing and photography unleash my creativity. 
+    Through my portfolio website, I aim to showcase my technical expertise alongside my creative pursuits.
+  </p>
+</div>
         
         {/* -------two buttons----- */}
         <div className='space-x-10 flex sm:justify-center md:justify-start sm:my-10'>
